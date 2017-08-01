@@ -32,4 +32,8 @@ class Country {
                 ", population=" + population +
                 '}';
     }
+
+    public boolean hasMoreThanOneMillionPopulation() {
+        return population > 1000000;
+    }
 }
